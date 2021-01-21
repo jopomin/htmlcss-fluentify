@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background: #000;
+  background: #fff;
   font-family: 'Arial', sans-serif;
 }
 
@@ -39,6 +39,12 @@ nav {
 
 a {
   text-decoration: none;
+}
+
+p {
+  color: #888;
+  font-weight: bold;
+  line-height: 1.5;
 }
 
 #logo {
@@ -155,7 +161,52 @@ h1 {
   margin-bottom: 2vh;
 }
 
-.grey-strip p {
-  color: #888;
-  font-weight: bold;
+
+.section-main {
+  background: #fff;
+}
+
+.kp {
+  float: left;
+  padding: 5vh 0;
+  width: 30%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+.kp:last-child {
+  margin-right: 0;
+}
+
+.kp img {
+  height: 25vh;
+  margin-bottom: 3vh;
+}
+
+.kp h2 {
+  color: #7cbb02;
+  font-size: 26px;
+}
+
+.kp hr {
+  text-align: center;
+  width: 20%;
+  margin: 3vh auto;
+  height: 1px;
+  border-width: 0;
+  color: grey;
+  background-color: grey;
+}
+
+.kp p {
+  font-size: 18px;
+}
+
+main hr {
+  width: 98%;
+  margin: 2vh auto;
+  height: 1px;
+  border-width: 0;
+  color: #ccc;
+  background-color: #ccc;
 }
