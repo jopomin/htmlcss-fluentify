@@ -30,7 +30,7 @@ header {
   background-image: url('../img/background-header.png');
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 1280px;
 }
 
 nav {
@@ -87,6 +87,10 @@ ul.menu li a {
   letter-spacing: 1px;
 }
 
+ul.menu li a:hover:not(.button) {
+  color: #7cbb02;
+}
+
 .button {
   border-radius: 5px;
   text-align: center;
@@ -112,6 +116,16 @@ ul.menu li a {
   background: #7cbb02;
 }
 
+.b-green:hover {
+  background: #fff;
+  color: #7cbb02;
+}
+
+.b-trans:hover {
+  background: rgba(255,255,255,0.4);
+  color: #fff;
+}
+
 .hero-banner {
   height: 65vh;
   position: relative;
@@ -126,5 +140,22 @@ ul.menu li a {
 h1 {
   font-size: 56px;
   color: #fff;
-  margin-bottom: 5vh;
+  margin-bottom: 6vh;
+}
+
+.grey-strip {
+  background: #d3d3d3;
+  padding: 6vh 0;
+  text-align: center;
+}
+
+.grey-strip h3 {
+  color: #222;
+  font-size: 24px;
+  margin-bottom: 2vh;
+}
+
+.grey-strip p {
+  color: #888;
+  font-weight: bold;
 }
