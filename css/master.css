@@ -164,11 +164,11 @@ h1 {
 
 .section-main {
   background: #fff;
+  margin: 6vh 0;
 }
 
 .kp {
   float: left;
-  padding: 5vh 0;
   width: 30%;
   margin-right: 5%;
   text-align: center;
@@ -209,4 +209,118 @@ main hr {
   border-width: 0;
   color: #ccc;
   background-color: #ccc;
+}
+
+.level-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.col-level {
+  float: left;
+}
+
+.col-left {
+  width: 50%;
+  margin-right: 10%;
+}
+
+.col-left img {
+  width: 100%;
+  height: 50vh;
+}
+
+.col-right {
+  text-align: left;
+  width: 40%;
+}
+
+.col-right h2 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 2vh;
+}
+
+.col-right a {
+  color: #5586bc;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.col-right p {
+  margin-bottom: 2vh;
+}
+
+footer {
+  height: 20vh;
+  background: #d3d3d3;
+}
+
+footer h2 {
+  font-size: 36px;
+  color: #222;
+  line-height: 20vh;
+  float:left;
+  margin-right: 50px;
+}
+
+ul.ft-input {
+  float: right;
+  line-height: 20vh;
+}
+
+ul.ft-input li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 30px;
+}
+
+ul.ft-input li:last-child {
+  margin-right: 0;
+}
+
+ul.ft-input li label {
+  font-size: 15px;
+  color: #444;
+}
+
+#sono {
+  background: #d3d3d3;
+  width: 250px;
+  padding-bottom: 5px;
+  font-size: 17px;
+  outline: none;
+  color: #444;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+#sono option {
+  padding: 10px;
+  min-height: 1.5em;
+}
+
+#help {
+  position: fixed;
+  display: inline-block;
+  bottom: 0;
+  right: 20%;
+  background: #7cbb02;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 4px 4px 0 0;
+}
+
+#help:hover {
+  background: #0c325a;
+  color: #7cbb02;
+}
+
+#help:active {
+  background: #0c325a;
+  color: #fff;
 }
